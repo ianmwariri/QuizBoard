@@ -14,3 +14,7 @@ button{
 .radio{
   padding-left: 20px;
 }
+
+#formQuestions{
+  display: none;
+}

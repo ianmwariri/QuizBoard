@@ -1,6 +1,9 @@
+$(document).ready(function(){
+  $("#startBtn").click(function(){
+    $("#formQuestions").show();
+  });
+});
 
-
-$(document).read
 
 //function showResults()
 //function buildQuiz(){}
