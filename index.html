@@ -4,6 +4,8 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <title>Quiz Board!</title>
 </head>
@@ -16,39 +18,128 @@
         The quiz is however, multiple-choiced.</p>
     </div>
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h2 class="panel-title">Instructions:</h2>
-          </div>
-          <div class="panel-body">
-            <ol>
-              <li>Answer
-                <strong>ALL</strong> Questions.</li>
-              <li>Note that
-                <em>ONLY ONE ANSWER</em> can be used Per Question.</li>
-              <li>Once you click the
-                <span class="spanBtnSubmit">Submit Quiz</span> button, you cannot change your answers.</li>
-              <li>Once you're ready to begin, Click
-                <strong>Start</strong> in the section below.</li>
-            </ol>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h2 class="panel-title">Instructions:</h2>
+      </div>
+      <div class="panel-body">
+        <ol>
+          <li>Answer
+            <strong>ALL</strong> Questions.</li>
+          <li>Note that
+            <em>ONLY ONE ANSWER</em> can be used Per Question.</li>
+          <li>Once you click the
+            <span class="spanBtnSubmit">Submit Quiz</span> button, you cannot change your answers.</li>
+          <li>Once you're ready to begin, Click
+            <strong>Start</strong> in the section below.</li>
+        </ol>
 
-          </div>
+      </div>
 
-          <div class="panel-footer">
-            <p>All the best!</p>
-          </div>
-        </div>
-
-        <button>Start!</button>
-
+      <div class="panel-footer">
+        <p>All the best!</p>
       </div>
     </div>
 
+    <button>Start!</button>
+
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h2 class="panel-title">Answer the Questions Below:</h2>
+      </div>
+      <div class="panel-body">
+        <form id="quizFormId">
+          <div class="form-group">
+           
+            <label for="q1">1. JavaScript is __________ language.</label>
+            <div class="radio">
+              <input type="radio" name="scripting" value="a"> A Scripting
+            </div>
+
+            <div class="radio">
+              <input type="radio" name="scripting" value="b"> A Programming
+            </div>
+
+            <div class="radio">
+              <input type="radio" name="scripting" value="c"> An Application
+            </div>
+
+            <div class="radio">
+              <input type="radio" name="scripting" value="d"> All the Above
+            </div>
+
+          </div>
 
 
 
+
+
+
+          <div class="form-group">
+          
+            <label for="q2">2. JavaScript is __________ Side Scripting Language.</label>
+            <div class="radio">
+              <input type="radio" name="client" value="client" checked> A Client
+            </div>
+          
+            <div class="radio">
+              <input type="radio" name="client" value="server"> A Server
+            </div>
+          
+            <div class="radio">
+              <input type="radio" name="client" value="isp"> An ISP
+            </div>
+          
+            <div class="radio">
+              <input type="radio" name="client" value="noneOfTheAbove"> None of the Above
+            </div>
+          
+          </div>
+
+
+
+
+          <div class="form-group">
+          
+            <label for="q3">3. JavaScript is designed for the following purpose: </label>
+            <div class="radio">
+              <input type="radio" name="styleHtml" value="styleHtml" checked> To Style HTML Pages.
+            </div>
+          
+            <div class="radio">
+              <input type="radio" name="styleHtml" value="addInteractivity"> To Add Interactivity to HTML Pages.
+            </div>
+          
+            <div class="radio">
+              <input type="radio" name="styleHtml" value="serverScripting"> To Provide Server Side Scripting.
+            </div>
+          
+            <div class="radio">
+              <input type="radio" name="styleHtml" value="clientScripting"> To Provide Client Side Scripting.
+            </div>
+          
+          </div>
+
+
+
+          <div class="form-group">
+          
+            <label for="q4">4. JavaScript is  ____________ Language. </label>
+            <div class="radio">
+              <input type="radio" name="compiled" value="compiled" checked> A Compiled
+            </div>
+          
+            <div class="radio">
+              <input type="radio" name="compiled" value="interpreted"> An Interpreted
+            </div>
+          
+          </div>
+
+
+
+        </form>
+      </div>
+    </div>
 
 
   </div>

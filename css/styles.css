@@ -6,3 +6,11 @@ h1{
 .spanBtnSubmit{
   text-decoration: underline;
 }
+
+button{
+  background-color:lime;
+}
+
+.radio{
+  padding-left: 20px;
+}
