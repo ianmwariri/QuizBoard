@@ -22,9 +22,11 @@ Git
 
 ## SYSTEM GUIDELINES:
 
-**git clone 
- **cd 
-**atom . OR code .
+ ` git clone https://github.com/smokeyice/QuizBoard.git
+
+ ` cd 
+ 
+ ` atom . OR code .
 
 
 ## KNOWN BUGS
