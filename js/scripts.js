@@ -6,30 +6,30 @@ $(document).ready(function(){
 
 function checkSubmit(){
 
-  var que1 = document.quiz.q1AnswerChoice.value;
-  var que2 = document.quiz.q2AnswerChoice.value;
-  var que3 = document.quiz.q3AnswerChoice.value;
-  var que4 = document.quiz.q4AnswerChoice.value;
+  var que1 = document.quizForm.q1AnswerChoice.value;
+  var que2 = document.quizForm.q2AnswerChoice.value;
+  var que3 = document.quizForm.q3AnswerChoice.value;
+  var que4 = document.quizForm.q4AnswerChoice.value;
 
-  var right = 0;
+  var correctAnswers = 0;
 
   if (que1 == "a"){
-    right ++;
+    correctAnswers++;
   }
 
   if (que2 == "client"){
-    right++
+    correctAnswers++;
   }
 
   if (que3 == "addInteractivity") {
-    right++;
+    correctAnswers++;
   }
 
 
   if (que4 == "interpreted") {
-    right++;
+    correctAnswers++;
   }
 
   document.getElementById("afterSubmit").style.visibility="visible";
-  document.getElementById("number-correct").innerHTML = "You got " +right + " right!";
+  document.getElementById("number-correct").innerHTML = "You Got " + correctAnswers + " Answers Correct!";
 }
