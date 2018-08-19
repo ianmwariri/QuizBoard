@@ -25,11 +25,40 @@ function checkSubmit(){
     correctAnswers++;
   }
 
-
   if (que4 == "interpreted") {
     correctAnswers++;
   }
 
+
+  var rewardMessage = ["Excellent!", "Good!", "Fair Trial!", "Pull up your Socks!"];
+
+  var markRange;
+  
+  if(correctAnswers <1){
+    markRange = 3;
+  }
+
+
+  if (correctAnswers >0 && correctAnswers <2) {
+    markRange = 2;
+  }
+
+  if (correctAnswers > 1 && correctAnswers < 3) {
+    markRange = 2;
+  }
+
+  if (correctAnswers > 2 && correctAnswers < 4) {
+    markRange = 1;
+  }
+
+  if (correctAnswers > 3) {
+    markRange = 0;
+  }
+
+  alert("You got " + correctAnswers + " out of 4 Answers Correct!");
+
   document.getElementById("afterSubmit").style.visibility="visible";
-  document.getElementById("number-correct").innerHTML = "You Got " + correctAnswers + " Answers Correct!";
+
+  document.getElementById("message").innerHTML = rewardMessage[markRange];
+  //document.getElementById("number-correct").innerHTML = "You got " + correctAnswers + " out of 4 Answers Correct.";
 }
