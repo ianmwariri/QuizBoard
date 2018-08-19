@@ -54,19 +54,19 @@
            
             <label for="q1">1. JavaScript is __________ language.</label>
             <div class="radio">
-              <input type="radio" name="scripting" value="a"> A Scripting
+              <input type="radio" class="multipleChoiceClass" name="q1AnswerChoice" value="a"> A Scripting
             </div>
 
             <div class="radio">
-              <input type="radio" name="scripting" value="b"> A Programming
+              <input type="radio" class="multipleChoiceClass" name="q1AnswerChoice" value="b"> A Programming
             </div>
 
             <div class="radio">
-              <input type="radio" name="scripting" value="c"> An Application
+              <input type="radio" class="multipleChoiceClass" name="q1AnswerChoice" value="c"> An Application
             </div>
 
             <div class="radio">
-              <input type="radio" name="scripting" value="d"> All the Above
+              <input type="radio" class="multipleChoiceClass" name="q1AnswerChoice" value="d"> All the Above
             </div>
 
           </div>
@@ -80,19 +80,19 @@
           
             <label for="q2">2. JavaScript is __________ Side Scripting Language.</label>
             <div class="radio">
-              <input type="radio" name="client" value="client" checked> A Client
+              <input type="radio" class="multipleChoiceClass" name="q2AnswerChoice" value="client" checked> A Client
             </div>
           
             <div class="radio">
-              <input type="radio" name="client" value="server"> A Server
+              <input type="radio" class="multipleChoiceClass" name="q2AnswerChoice" value="server"> A Server
             </div>
           
             <div class="radio">
-              <input type="radio" name="client" value="isp"> An ISP
+              <input type="radio" class="multipleChoiceClass" name="q2AnswerChoice" value="isp"> An ISP
             </div>
           
             <div class="radio">
-              <input type="radio" name="client" value="noneOfTheAbove"> None of the Above
+              <input type="radio" class="multipleChoiceClass" name="q2AnswerChoice" value="noneOfTheAbove"> None of the Above
             </div>
           
           </div>
@@ -104,19 +104,19 @@
           
             <label for="q3">3. JavaScript is designed for the following purpose: </label>
             <div class="radio">
-              <input type="radio" name="styleHtml" value="styleHtml" checked> To Style HTML Pages.
+              <input type="radio" class="multipleChoiceClass" name="q3AnswerChoice" value="styleHtml" checked> To Style HTML Pages.
             </div>
           
             <div class="radio">
-              <input type="radio" name="styleHtml" value="addInteractivity"> To Add Interactivity to HTML Pages.
+              <input type="radio" class="multipleChoiceClass" name="q3AnswerChoice" value="addInteractivity"> To Add Interactivity to HTML Pages.
             </div>
           
             <div class="radio">
-              <input type="radio" name="styleHtml" value="serverScripting"> To Provide Server Side Scripting.
+              <input type="radio" class="multipleChoiceClass" name="q3AnswerChoice" value="serverScripting"> To Provide Server Side Scripting.
             </div>
           
             <div class="radio">
-              <input type="radio" name="styleHtml" value="clientScripting"> To Provide Client Side Scripting.
+              <input type="radio" class="multipleChoiceClass" name="q3AnswerChoice" value="clientScripting"> To Provide Client Side Scripting.
             </div>
           
           </div>
@@ -127,18 +127,19 @@
           
             <label for="q4">4. JavaScript is  ____________ Language. </label>
             <div class="radio">
-              <input type="radio" name="compiled" value="compiled" checked> A Compiled
+              <input type="radio" class="multipleChoiceClass" name="q4AnswerChoice" value="compiled" checked> A Compiled
             </div>
           
             <div class="radio">
-              <input type="radio" name="compiled" value="interpreted"> An Interpreted
+              <input type="radio" class="multipleChoiceClass" name="q4AnswerChoice" value="interpreted"> An Interpreted
             </div>
-          
+           
           </div>
 
 
 
         </form>
+        <button id="btnSubmit" onclick="checkSubmit();">Submit</button>
       </div>
     </div>
     </div>
