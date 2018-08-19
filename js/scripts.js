@@ -58,6 +58,7 @@ function checkSubmit(){
   }
 
   alert("You got " + correctAnswers + " out of 4 Answers Correct!");
+  alert("See Remarks Below Submit Button Please...");
 
   document.getElementById("afterSubmit").style.visibility="visible";
 
