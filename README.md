@@ -1,4 +1,4 @@
-QUIZ BOARD
+# QUIZ BOARD
 
 
 ## AUTHOR
@@ -25,7 +25,7 @@ Git
  ` git clone https://github.com/smokeyice/QuizBoard.git
 
  ` cd 
- 
+
  ` atom . OR code .
 
 
