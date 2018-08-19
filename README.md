@@ -30,7 +30,7 @@ However, that is subject to Review in due time.
 
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT (BDD)
-The User is expected to Click the 'Start' Button to Begin the 
+The User is expected to Click the 'Start' Button to Begin the Quiz
 
 The Program should Return Performance Marks when the User Clicks 'Submit'.
 
