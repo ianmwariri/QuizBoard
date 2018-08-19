@@ -14,16 +14,16 @@
   <div class="container">
     <div class="jumbotron">
       <h1>Quiz Board</h1>
-      <p>Now that we have been learning about JavaScript, we would like to ask you some questions about the week's content.
+      <p class="introParagraph">Now that we have been learning about JavaScript, we would like to ask you some questions about the week's content.
         The quiz is however, multiple-choiced.</p>
     </div>
 
     <div class="panel panel-info">
       <div class="panel-heading">
-        <h2 class="panel-title">Instructions:</h2>
+        <h2 class="panel-title"><strong>Instructions:</strong></h2>
       </div>
       <div class="panel-body">
-        <ol>
+        <ol class="resizeList">
           <li>Answer
             <strong>ALL</strong> Questions.</li>
           <li>Note that
@@ -31,17 +31,17 @@
           <li>Once you click the
             <span class="spanBtnSubmit">Submit Quiz</span> button, you cannot change your answers.</li>
           <li>Once you're ready to begin, Click
-            <strong>Start</strong> in the section below.</li>
+            <strong>START</strong> in the section below.</li>
         </ol>
 
       </div>
 
       <div class="panel-footer">
-        <p>All the best!</p>
+        <p class="resizeParagraph"><strong>All the best!</strong></p>
       </div>
     </div>
 
-    <button id="startBtn">Start!</button>
+    <button id="startBtn"><strong>START!</strong></button>
 
     <div id="formQuestions">
     <div class="panel panel-info">
@@ -139,11 +139,12 @@
 
 
         </form>
-        <button id="btnSubmit" onclick="checkSubmit();">Submit</button>
+        <button id="btnSubmit" onclick="checkSubmit();"><strong>Submit >></strong></button>
 
         <div id="afterSubmit">
           <p id="message"></p>
           <p id="number-correct"></p>
+          <img id="pics">
         </div>
 
 

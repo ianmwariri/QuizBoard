@@ -32,6 +32,8 @@ function checkSubmit(){
 
   var rewardMessage = ["Excellent!", "Good!", "Fair Trial!", "Pull up your Socks!"];
 
+  var rewardPics = ["images/success.gif", "images/good.gif", "images/fair.gif", "images/socks.gif"];
+
   var markRange;
   
   if(correctAnswers <1){
@@ -61,4 +63,6 @@ function checkSubmit(){
 
   document.getElementById("message").innerHTML = rewardMessage[markRange];
   //document.getElementById("number-correct").innerHTML = "You got " + correctAnswers + " out of 4 Answers Correct.";
+
+  document.getElementById("pics").src = rewardPics[markRange];
 }

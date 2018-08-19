@@ -2,21 +2,60 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }
 
+.introParagraph{
+  text-align: center;
+}
+
+.panel-title{
+  font-size: 19px;
+}
+
 h1{
   text-decoration: underline;
   text-align: center;
+}
+
+label{
+  font-size: 17px;
+}
+
+.multipleChoiceClass{
+  font-size: 25px;
+}
+
+.resizeParagraph{
+  font-size: 17px;
+}
+.resizeList{
+  font-size: 17px;
 }
 
 .spanBtnSubmit{
   text-decoration: underline;
 }
 
+.startBtn{
+  margin-bottom: 5px;
+}
+
+button:hover{
+  background-color:#7FFF00;
+   -webkit-transition-duration: 0.1s;
+    transition-duration: 0.2s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 button{
-  background-color:lime;
+  background-color:#ADFF2F;
+  padding: 1px 25px;
+  font-size: 17px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+  font-weight: 500;
 }
 
 .radio{
   padding-left: 20px;
+  font-size: 16px;
 }
 
 #formQuestions{
@@ -25,4 +64,27 @@ button{
 
 #afterSubmit{
   visibility: hidden;
+}
+
+.container{
+  background-color: aliceblue;
+}
+
+.jumbotron{
+  background-color:	#AFDCEC;
+}
+
+
+.panel-footer{
+  background-color: #EBF4FA;
+}
+
+.panel-body{
+  background-color: #FFFAFA;
+}
+
+
+#message{
+  font-size: 20px;
+
 }
