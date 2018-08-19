@@ -67,7 +67,7 @@ jQuery
 
 Live Demo
 
-To view the LIVE SITE, Click Here:
+To view the LIVE SITE, Click Here: https://smokeyice.github.io/QuizBoard/
 
 
 
