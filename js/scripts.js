@@ -66,4 +66,8 @@ function checkSubmit(){
   //document.getElementById("number-correct").innerHTML = "You got " + correctAnswers + " out of 4 Answers Correct.";
 
   document.getElementById("pics").src = rewardPics[markRange];
+
+
+  $("form#quizForm").hide();
+  event.preventDefault();
 }
